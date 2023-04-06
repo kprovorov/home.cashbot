@@ -1,3 +1,5 @@
+import Scene from "./Scene";
+
 export default function Home() {
-  return <div>Cashbot!</div>;
+  return <Scene />;
 }
