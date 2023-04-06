@@ -7,7 +7,7 @@ export default function Home() {
         <Scene />
       </div>
       <h1 className="text-4xl font-bold">Cashbot</h1>
-      <form name="waitlist" method="POST" data-netlify="true">
+      <form name="waitlist" method="POST" data-netlify="true" action="/">
         <input type="email" id="email" name="email" />
         <button type="submit">send</button>
       </form>
