@@ -9,7 +9,7 @@ export default function Home() {
       </div>
 
       <a
-        href="https://app.cashbot.me/auth/login"
+        href="https://app.cashbot.me/auth/register"
         className="
               p-md
               rounded-md
@@ -20,7 +20,6 @@ export default function Home() {
               transition
               duration-200
               ease-in-out
-              capitalize
               flex
               gap-sm
               hover:shadow-lg
@@ -30,8 +29,18 @@ export default function Home() {
               font-semibold
               box-border"
       >
-        Login <ArrowRightIcon className="w-6 h-6" />
+        Create your plan <ArrowRightIcon className="w-6 h-6" />
       </a>
+      <div className="flex gap-1">
+        Already have account?{" "}
+        <a
+          href="https://app.cashbot.me/auth/login"
+          className="text-grey-darkest font-semibold transition duration-300 group"
+        >
+          Login here
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-darkest"></span>
+        </a>
+      </div>
     </div>
   );
 }
