@@ -4,7 +4,13 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 export default function WaitlistForm() {
   return (
-    <form name="waitlist" method="POST" data-netlify="true" action="/success">
+    <form
+      name="waitlist"
+      method="POST"
+      data-netlify="true"
+      data-netlify-recaptcha="true"
+      action="/success"
+    >
       <div className="flex flex-col gap-md">
         <div className="flex flex-col gap-sm">
           <label
