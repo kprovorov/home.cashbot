@@ -1,4 +1,4 @@
-import Scene from "./Scene";
+import Scene from "../components/Scene";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {

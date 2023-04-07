@@ -1,4 +1,4 @@
-import Scene from "./Scene";
+import Scene from "../components/Scene";
 import "./globals.css";
 
 export const metadata = {
