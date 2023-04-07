@@ -1,3 +1,4 @@
+import Scene from "./Scene";
 import "./globals.css";
 
 export const metadata = {
@@ -17,7 +18,17 @@ export default function RootLayout({
       lang="en"
       className="antialiased bg-gray-lightest text-base text-gray-dark h-full"
     >
-      <body className="h-full">{children}</body>
+      <body className="h-full">
+        <div className="flex flex-col justify-between items-center p-12 h-full">
+          <div className="flex flex-col justify-start items-stretch gap-10">
+            <div className="h-40">
+              <Scene />
+            </div>
+            <div>{children}</div>
+          </div>
+          <div className="text-gray">Made in Ukraine 🇺🇦</div>
+        </div>
+      </body>
     </html>
   );
 }
