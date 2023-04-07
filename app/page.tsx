@@ -9,7 +9,12 @@ export default function Home() {
         <p>Join the waitlist for launch updates</p>
       </div>
 
-      <form name="waitlist" method="POST" data-netlify="true" action="/thankyou">
+      <form
+        name="waitlist"
+        method="POST"
+        data-netlify="true"
+        action="/thankyou"
+      >
         <div className="flex flex-col gap-md">
           <div className="flex flex-col gap-sm">
             <label
