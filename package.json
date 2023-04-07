@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@7.30.5",
   "dependencies": {
     "@heroicons/react": "^2.0.17",
     "@react-three/drei": "^9.64.0",
