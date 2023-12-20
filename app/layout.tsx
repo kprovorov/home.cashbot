@@ -1,5 +1,5 @@
-import Scene from "../components/Scene";
 import "./globals.css";
+import Image from "next/image";
 
 export const metadata = {
   title: "Cashbot",
@@ -21,8 +21,8 @@ export default function RootLayout({
       <body className="h-full">
         <div className="flex flex-col justify-between items-center p-12 h-full">
           <div className="flex flex-col justify-start items-stretch gap-10">
-            <div className="h-40">
-              <Scene />
+            <div className="flex justify-center">
+              <Image alt="cashbot" src="/icon.svg" width="100" height="100" />
             </div>
             <div>{children}</div>
           </div>
